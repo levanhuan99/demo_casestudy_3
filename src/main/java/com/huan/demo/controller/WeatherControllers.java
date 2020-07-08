@@ -13,4 +13,9 @@ public class WeatherControllers {
     public String Test (){
         return "hieu";
     }
+    @GetMapping("/test")
+    public String TestForm (){
+        return "test";
+    }
+
 }
