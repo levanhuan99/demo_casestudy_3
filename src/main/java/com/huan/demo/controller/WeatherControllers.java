@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WeatherControllers {
     @GetMapping("/hello")
     public String ALL(){
-        return "hellllooo aaaa";
+        return "hello";
+    }
+    @GetMapping("/hieu")
+    public String Test (){
+        return "hieu";
     }
 }
